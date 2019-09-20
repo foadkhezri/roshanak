@@ -19,7 +19,7 @@ body {
   font-weight: 300;
 }
 
-#showcase {
+.overlay {
   background-image: url("../img/charity.jpg"); /* The image used */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
