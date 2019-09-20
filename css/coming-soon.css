@@ -20,7 +20,7 @@ body {
 }
 
 #showcase {
-  background-image: url("img/charity.jpg"); /* The image used */
+  background-image: url("../img/charity.jpg"); /* The image used */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
