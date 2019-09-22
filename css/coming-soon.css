@@ -20,7 +20,7 @@ body {
 }
 
 .overlay {
-  background-image: url("../img/charity.jpg"); /* The image used */
+  background-image: url("../img/bg.jpg"); /* The image used */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -32,6 +32,23 @@ body {
   font-family: 'Almarai', sans-serif;
 }
 
+#caption {
+  text-align: end;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+  z-index: 5;
+  color: antiquewhite;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
 @media only screen and (max-width: 700px) {
   #title {
     font-size: 5rem;
@@ -39,10 +56,9 @@ body {
   #caption {
     font-size: 1rem;
   }
-}
-
-#caption {
-  text-align: end;
+  .footer {
+    font-size: .75rem;
+  }
 }
 
 h1,
